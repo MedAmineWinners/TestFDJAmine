@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="AutoCompleteTableViewCell" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="AutoCompleteTableViewCell" customModule="FDJTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RVz-zx-9Sd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JEP-mi-GbX" userLabel="leagueName">
+                                <rect key="frame" x="20" y="12.5" width="280" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LJU-CK-UKI">
+                                <rect key="frame" x="0.0" y="43.5" width="320" height="0.5"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="UEu-lg-TXb"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="LJU-CK-UKI" firstAttribute="centerX" secondItem="RVz-zx-9Sd" secondAttribute="centerX" id="0C9-pW-z7b"/>
+                            <constraint firstItem="JEP-mi-GbX" firstAttribute="centerY" secondItem="RVz-zx-9Sd" secondAttribute="centerY" id="17a-wO-Dco"/>
+                            <constraint firstItem="JEP-mi-GbX" firstAttribute="leading" secondItem="RVz-zx-9Sd" secondAttribute="leading" constant="20" id="3qY-ba-1aB"/>
+                            <constraint firstAttribute="bottom" secondItem="LJU-CK-UKI" secondAttribute="bottom" id="Ik1-c5-5Gw"/>
+                            <constraint firstItem="LJU-CK-UKI" firstAttribute="width" secondItem="RVz-zx-9Sd" secondAttribute="width" id="uHF-3E-6ta"/>
+                            <constraint firstAttribute="trailing" secondItem="JEP-mi-GbX" secondAttribute="trailing" constant="20" id="xae-25-sPc"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="RVz-zx-9Sd" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="AeL-5K-R2r"/>
+                    <constraint firstItem="RVz-zx-9Sd" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" id="Fb7-TS-wIc"/>
+                    <constraint firstItem="RVz-zx-9Sd" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" id="dzb-oC-mz7"/>
+                    <constraint firstAttribute="trailing" secondItem="RVz-zx-9Sd" secondAttribute="trailing" id="jfj-tA-qW0"/>
+                    <constraint firstItem="RVz-zx-9Sd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="sbl-8z-Kwo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="leagueName" destination="JEP-mi-GbX" id="23Z-MI-Ags"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="54.910714285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
