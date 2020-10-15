@@ -28,16 +28,6 @@ struct Team: Codable {
     let strTeamBadge: String?
     let strTeamBanner: String?
 
-    enum CodingKeys: String, CodingKey {
-        case idTeam = "idTeam"
-        case strTeam = "strTeam"
-        case strLeague = "strLeague"
-        case strDescriptionEN = "strDescriptionEN"
-        case strCountry = "strCountry"
-        case strTeamBadge = "strTeamBadge"
-        case strTeamBanner = "strTeamBanner"
-    }
-
     init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         idTeam = try values.decodeIfPresent(String.self, forKey: .idTeam)

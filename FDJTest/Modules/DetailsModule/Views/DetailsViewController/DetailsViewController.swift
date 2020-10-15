@@ -16,7 +16,7 @@ class DetailsViewController: UIViewController, DetailsViewProtocol {
     @IBOutlet weak var leagueName: UILabel!
     @IBOutlet weak var teamDescriptionLabel: UILabel!
     
-    private let detailsPresenter = DetailsPresenter(leaguesAPIServices: LeaguesAPIServices())
+    private let detailsPresenter = DetailsPresenter(detailsServices: DetailsServices())
     var teamName: String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,8 +27,8 @@ class DetailsViewController: UIViewController, DetailsViewProtocol {
     
     func showTeamDetails(team: Team) {
         DispatchQueue.main.async {
-            if let strBanner = team.strTeamBanner {
-                self.bannerImageView.load(url: URL(string: strBanner)!)
+            if let url = URL(string: team.strTeamBanner ?? "") {
+                self.bannerImageView.load(url: url)
             }
             self.coutryLabel.text = team.strCountry
             self.leagueName.text = team.strLeague

@@ -12,13 +12,17 @@ class TeamCollectionViewCell: UICollectionViewCell {
     
     public var team: Team! {
         didSet {
-            if let strTeamBadge = team.strTeamBadge {
-                teamLogoImgView.load(url: URL(string: strTeamBadge)!)
+            if let url = URL(string: team.strTeamBadge ?? "")  {
+                teamLogoImgView.load(url: url)
             }
         }
     }
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+    }
+    
+    override func prepareForReuse() {
+        teamLogoImgView.image = nil
     }
 }

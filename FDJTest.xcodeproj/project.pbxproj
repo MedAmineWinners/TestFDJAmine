@@ -7,9 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3303F4BA2538F32100DEAB8A /* NetworkSessionMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3303F4B92538F32100DEAB8A /* NetworkSessionMock.swift */; };
+		3303F4BF2538F35900DEAB8A /* RequestHandlerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3303F4BE2538F35900DEAB8A /* RequestHandlerTest.swift */; };
+		3303F4C42538F43B00DEAB8A /* TestHomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3303F4C32538F43B00DEAB8A /* TestHomeModule.swift */; };
+		3303F4C92538F8DB00DEAB8A /* Teams.json in Resources */ = {isa = PBXBuildFile; fileRef = 3303F4C82538F8DB00DEAB8A /* Teams.json */; };
+		3303F4CE2538F95B00DEAB8A /* Leagues.json in Resources */ = {isa = PBXBuildFile; fileRef = 3303F4CD2538F95B00DEAB8A /* Leagues.json */; };
+		3303F4D32538FA2B00DEAB8A /* TestDetailsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3303F4D22538FA2B00DEAB8A /* TestDetailsModule.swift */; };
+		33A283022538DAE300C2E327 /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A283012538DAE300C2E327 /* RequestHandler.swift */; };
+		33A2830F2538DEE100C2E327 /* HomeServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A2830E2538DEE100C2E327 /* HomeServices.swift */; };
+		33A2831E2538E00A00C2E327 /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A2831D2538E00A00C2E327 /* HomeProtocols.swift */; };
+		33A283262538E5AA00C2E327 /* DetailsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A283252538E5AA00C2E327 /* DetailsProtocol.swift */; };
+		33A2832B2538E70400C2E327 /* DetailsServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A2832A2538E70400C2E327 /* DetailsServices.swift */; };
 		7BA8F0FC252BD32F006FCE5C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA8F0FB252BD32F006FCE5C /* DetailsViewController.swift */; };
 		7BA8F101252BDCCC006FCE5C /* DetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA8F100252BDCCC006FCE5C /* DetailsPresenter.swift */; };
-		7BA8F11B252C80F6006FCE5C /* URLGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA8F11A252C80F6006FCE5C /* URLGenerator.swift */; };
 		7BD29288252B585D0016CE97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD29287252B585D0016CE97 /* AppDelegate.swift */; };
 		7BD2928A252B585D0016CE97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD29289252B585D0016CE97 /* SceneDelegate.swift */; };
 		7BD2928C252B585D0016CE97 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD2928B252B585D0016CE97 /* HomeViewController.swift */; };
@@ -20,7 +30,6 @@
 		7BD292AA252B58600016CE97 /* FDJTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD292A9252B58600016CE97 /* FDJTestUITests.swift */; };
 		7BD292C4252B6B450016CE97 /* TeamCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD292C2252B6B450016CE97 /* TeamCollectionViewCell.swift */; };
 		7BD292C5252B6B450016CE97 /* TeamCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BD292C3252B6B450016CE97 /* TeamCollectionViewCell.xib */; };
-		7BD292CD252B6E3F0016CE97 /* LeaguesAPIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD292CC252B6E3F0016CE97 /* LeaguesAPIServices.swift */; };
 		7BD292D6252B75CF0016CE97 /* Leagues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD292D5252B75CF0016CE97 /* Leagues.swift */; };
 		7BD292ED252B864B0016CE97 /* Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD292EC252B864B0016CE97 /* Teams.swift */; };
 		7BD292F2252B904C0016CE97 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD292F1252B904C0016CE97 /* HomePresenter.swift */; };
@@ -47,9 +56,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3303F4B92538F32100DEAB8A /* NetworkSessionMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSessionMock.swift; sourceTree = "<group>"; };
+		3303F4BE2538F35900DEAB8A /* RequestHandlerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHandlerTest.swift; sourceTree = "<group>"; };
+		3303F4C32538F43B00DEAB8A /* TestHomeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHomeModule.swift; sourceTree = "<group>"; };
+		3303F4C82538F8DB00DEAB8A /* Teams.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Teams.json; sourceTree = "<group>"; };
+		3303F4CD2538F95B00DEAB8A /* Leagues.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Leagues.json; sourceTree = "<group>"; };
+		3303F4D22538FA2B00DEAB8A /* TestDetailsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDetailsModule.swift; sourceTree = "<group>"; };
+		33A283012538DAE300C2E327 /* RequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
+		33A2830E2538DEE100C2E327 /* HomeServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServices.swift; sourceTree = "<group>"; };
+		33A2831D2538E00A00C2E327 /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
+		33A283252538E5AA00C2E327 /* DetailsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsProtocol.swift; sourceTree = "<group>"; };
+		33A2832A2538E70400C2E327 /* DetailsServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsServices.swift; sourceTree = "<group>"; };
 		7BA8F0FB252BD32F006FCE5C /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		7BA8F100252BDCCC006FCE5C /* DetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPresenter.swift; sourceTree = "<group>"; };
-		7BA8F11A252C80F6006FCE5C /* URLGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLGenerator.swift; sourceTree = "<group>"; };
 		7BD29284252B585D0016CE97 /* FDJTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDJTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BD29287252B585D0016CE97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BD29289252B585D0016CE97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,7 +85,6 @@
 		7BD292AB252B58600016CE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BD292C2252B6B450016CE97 /* TeamCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCollectionViewCell.swift; sourceTree = "<group>"; };
 		7BD292C3252B6B450016CE97 /* TeamCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamCollectionViewCell.xib; sourceTree = "<group>"; };
-		7BD292CC252B6E3F0016CE97 /* LeaguesAPIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaguesAPIServices.swift; sourceTree = "<group>"; };
 		7BD292D5252B75CF0016CE97 /* Leagues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leagues.swift; sourceTree = "<group>"; };
 		7BD292EC252B864B0016CE97 /* Teams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teams.swift; sourceTree = "<group>"; };
 		7BD292F1252B904C0016CE97 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
@@ -100,6 +118,127 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33A283092538DE8E00C2E327 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				33A283172538DF7A00C2E327 /* Protocols */,
+				33A283162538DF7300C2E327 /* Services */,
+				33A283152538DF6500C2E327 /* Presenter */,
+				33A283142538DF5E00C2E327 /* Views */,
+				33A283132538DF3D00C2E327 /* Models */,
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		33A2830A2538DE9500C2E327 /* DetailsModule */ = {
+			isa = PBXGroup;
+			children = (
+				33A2831C2538DFB700C2E327 /* Views */,
+				33A2831B2538DFA800C2E327 /* Protocols */,
+				33A2831A2538DFA100C2E327 /* Presenter */,
+				33A283192538DF9B00C2E327 /* Services */,
+				33A283182538DF9300C2E327 /* Models */,
+			);
+			path = DetailsModule;
+			sourceTree = "<group>";
+		};
+		33A283132538DF3D00C2E327 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7BD292D5252B75CF0016CE97 /* Leagues.swift */,
+				7BD292EC252B864B0016CE97 /* Teams.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		33A283142538DF5E00C2E327 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7BA8F0F9252BD2BB006FCE5C /* HomeViewController */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		33A283152538DF6500C2E327 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7BD292F1252B904C0016CE97 /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		33A283162538DF7300C2E327 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				33A2830E2538DEE100C2E327 /* HomeServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		33A283172538DF7A00C2E327 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				33A2831D2538E00A00C2E327 /* HomeProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		33A283182538DF9300C2E327 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		33A283192538DF9B00C2E327 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				33A2832A2538E70400C2E327 /* DetailsServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		33A2831A2538DFA100C2E327 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7BA8F100252BDCCC006FCE5C /* DetailsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		33A2831B2538DFA800C2E327 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				33A283252538E5AA00C2E327 /* DetailsProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		33A2831C2538DFB700C2E327 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7BA8F0FA252BD2F1006FCE5C /* DetailsViewController */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		33A283382538E97E00C2E327 /* RequestHandler */ = {
+			isa = PBXGroup;
+			children = (
+				33A283012538DAE300C2E327 /* RequestHandler.swift */,
+			);
+			path = RequestHandler;
+			sourceTree = "<group>";
+		};
+		33A283392538E99700C2E327 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				33A283092538DE8E00C2E327 /* HomeModule */,
+				33A2830A2538DE9500C2E327 /* DetailsModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
 		7BA8F0F9252BD2BB006FCE5C /* HomeViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,11 +279,9 @@
 		7BD29286252B585D0016CE97 /* FDJTest */ = {
 			isa = PBXGroup;
 			children = (
+				33A283392538E99700C2E327 /* Modules */,
+				33A283382538E97E00C2E327 /* RequestHandler */,
 				7BD292D4252B6EA60016CE97 /* Utils */,
-				7BD292BE252B62AB0016CE97 /* Services */,
-				7BD292BC252B5A1C0016CE97 /* Presenters */,
-				7BD292BB252B5A140016CE97 /* Views */,
-				7BD292BA252B5A040016CE97 /* Models */,
 				7BD29287252B585D0016CE97 /* AppDelegate.swift */,
 				7BD29289252B585D0016CE97 /* SceneDelegate.swift */,
 				7BD2928D252B585D0016CE97 /* Main.storyboard */,
@@ -160,6 +297,12 @@
 			children = (
 				7BD2929E252B58600016CE97 /* FDJTestTests.swift */,
 				7BD292A0252B58600016CE97 /* Info.plist */,
+				3303F4B92538F32100DEAB8A /* NetworkSessionMock.swift */,
+				3303F4BE2538F35900DEAB8A /* RequestHandlerTest.swift */,
+				3303F4C32538F43B00DEAB8A /* TestHomeModule.swift */,
+				3303F4D22538FA2B00DEAB8A /* TestDetailsModule.swift */,
+				3303F4C82538F8DB00DEAB8A /* Teams.json */,
+				3303F4CD2538F95B00DEAB8A /* Leagues.json */,
 			);
 			path = FDJTestTests;
 			sourceTree = "<group>";
@@ -171,42 +314,6 @@
 				7BD292AB252B58600016CE97 /* Info.plist */,
 			);
 			path = FDJTestUITests;
-			sourceTree = "<group>";
-		};
-		7BD292BA252B5A040016CE97 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				7BD292D5252B75CF0016CE97 /* Leagues.swift */,
-				7BD292EC252B864B0016CE97 /* Teams.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		7BD292BB252B5A140016CE97 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				7BA8F0FA252BD2F1006FCE5C /* DetailsViewController */,
-				7BA8F0F9252BD2BB006FCE5C /* HomeViewController */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		7BD292BC252B5A1C0016CE97 /* Presenters */ = {
-			isa = PBXGroup;
-			children = (
-				7BD292F1252B904C0016CE97 /* HomePresenter.swift */,
-				7BA8F100252BDCCC006FCE5C /* DetailsPresenter.swift */,
-			);
-			path = Presenters;
-			sourceTree = "<group>";
-		};
-		7BD292BE252B62AB0016CE97 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				7BD292CC252B6E3F0016CE97 /* LeaguesAPIServices.swift */,
-				7BA8F11A252C80F6006FCE5C /* URLGenerator.swift */,
-			);
-			path = Services;
 			sourceTree = "<group>";
 		};
 		7BD292D4252B6EA60016CE97 /* Utils */ = {
@@ -343,6 +450,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3303F4CE2538F95B00DEAB8A /* Leagues.json in Resources */,
+				3303F4C92538F8DB00DEAB8A /* Teams.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,16 +469,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A283022538DAE300C2E327 /* RequestHandler.swift in Sources */,
+				33A2831E2538E00A00C2E327 /* HomeProtocols.swift in Sources */,
 				7BD292ED252B864B0016CE97 /* Teams.swift in Sources */,
 				7BD292F8252BA4960016CE97 /* Extensions.swift in Sources */,
 				7BD292D6252B75CF0016CE97 /* Leagues.swift in Sources */,
-				7BA8F11B252C80F6006FCE5C /* URLGenerator.swift in Sources */,
+				33A2832B2538E70400C2E327 /* DetailsServices.swift in Sources */,
 				7BA8F0FC252BD32F006FCE5C /* DetailsViewController.swift in Sources */,
 				7BD2930B252BBB470016CE97 /* AutoCompleteTableViewCell.swift in Sources */,
-				7BD292CD252B6E3F0016CE97 /* LeaguesAPIServices.swift in Sources */,
+				33A283262538E5AA00C2E327 /* DetailsProtocol.swift in Sources */,
 				7BD2928C252B585D0016CE97 /* HomeViewController.swift in Sources */,
 				7BD29288252B585D0016CE97 /* AppDelegate.swift in Sources */,
 				7BD2928A252B585D0016CE97 /* SceneDelegate.swift in Sources */,
+				33A2830F2538DEE100C2E327 /* HomeServices.swift in Sources */,
 				7BD292C4252B6B450016CE97 /* TeamCollectionViewCell.swift in Sources */,
 				7BD292F2252B904C0016CE97 /* HomePresenter.swift in Sources */,
 				7BA8F101252BDCCC006FCE5C /* DetailsPresenter.swift in Sources */,
@@ -381,6 +493,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BD2929F252B58600016CE97 /* FDJTestTests.swift in Sources */,
+				3303F4BA2538F32100DEAB8A /* NetworkSessionMock.swift in Sources */,
+				3303F4D32538FA2B00DEAB8A /* TestDetailsModule.swift in Sources */,
+				3303F4C42538F43B00DEAB8A /* TestHomeModule.swift in Sources */,
+				3303F4BF2538F35900DEAB8A /* RequestHandlerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

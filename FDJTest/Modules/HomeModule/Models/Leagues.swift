@@ -27,13 +27,6 @@ struct League: Codable {
     let strSport: String?
     let strLeagueAlternate: String?
 
-    enum CodingKeys: String, CodingKey {
-        case idLeague = "idLeague"
-        case strLeague = "strLeague"
-        case strSport = "strSport"
-        case strLeagueAlternate = "strLeagueAlternate"
-    }
-
     init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         idLeague = try values.decodeIfPresent(String.self, forKey: .idLeague)

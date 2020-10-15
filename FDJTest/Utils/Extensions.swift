@@ -21,3 +21,25 @@ extension UIImageView {
         }
     }
 }
+
+extension Data {
+    func decode<T: Codable>() -> T {
+        let decoder = JSONDecoder()
+        guard let loaded = try? decoder.decode(T.self, from: self) else {
+            fatalError("failed to decode data")
+        }
+        return loaded
+    }
+}
+
+extension UITableView {
+    func reloadDataAnimated() {
+        UIView.transition(with: self, duration: 0.5, options: .transitionCrossDissolve, animations: {self.reloadData()}, completion: nil)
+    }
+}
+
+extension UICollectionView {
+    func reloadDataAnimated() {
+        UIView.transition(with: self, duration: 0.5, options: .transitionCrossDissolve, animations: {self.reloadData()}, completion: nil)
+    }
+}
